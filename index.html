@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FineLime</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    body {
+      background: #0b0f0b;
+      color: #39ff14; /* neon green text */
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      line-height: 1.8;
+      text-shadow:
+        0 0 5px #39ff14,
+        0 0 10px #39ff14,
+        0 0 20px #39ff14,
+        0 0 40px #00ff00;
+    }
+    .link {
+      font-weight: 600;
+      cursor: default;
+    }
+    .hidden-link {
+      display: none; /* invisible but still in DOM */
+    }
+  </style>
+</head>
+<body>
+
+  <p>
+    Contact the owner to upload a file:<br>
+    <span class="link">https://discord.com/users/1370777423347712094</span> – DMs are opened
+  </p>
+
+  <!-- Hidden links for files -->
+  <a class="hidden-link" href="examples.txt" download>examples.txt</a>
+  <a class="hidden-link" href="mycoolfile.rar" download>mycoolfile.rar</a>
+  <a class="hidden-link" href="testfile.txt" download>testfile.txt</a>
+
+</body>
+</html>
